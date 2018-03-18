@@ -1,0 +1,42 @@
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+word-wrap: break-word;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.nicebutton {
+    margin: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-radius:20px;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+}
+
+.nicebutton active {
+    margin: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-radius:20px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+

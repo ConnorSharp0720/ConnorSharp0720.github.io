@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Connor</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="aboutMe.css">
+    </head>
+    <body ng-app="myApp">
+        <header class="container">
+            <div class="row">
+                <h1 class="col-sm-4">Connor Sharp</h1>
+                <nav class="col-sm-8 text-right">
+                    <a href="#Education"><p>Education</p></a>
+                    <a href="#Extracuriculars"><p>Extricuriculars</p></a>
+                    <a href="#WorkExperience"><p>Work Experience</p></a>
+                    <a href="#VolunteerWork"><p>Volunteer Work</p></a>
+                </nav>
+            </div>
+        </header>
+        <section class="jumbotron">
+            <div class="container">
+                <figure class="col-sm-12">
+                    <center><img src="Pictures/IMG_1446.jpg" width="750" height="600"></center>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h3>Who Am I?</h3>
+                <p>My name is Connor Sharp I am an aspiring computer scientist. I love the problem solving that computer science and writing code offers. I strive to find a balance of the intersection between creativity and science while never ceasing to innovate. I am studying areas of computer science such as game developement and web developement. I think computer science has the oppurtunity and power to not only change the world but to tell some very powerful stories as well. Computer science to me is not only a field of engineering but can also be a field of art.</p>
+            </div>
+        </section>
+        <section class="container" id="Education">
+            <div class="col-sm-12">
+                <h3>Education</h3>
+                <br>
+                <h5>University of Oklhoma, Norman,OK</h5>
+                <p>Bachelor of Science in Computer Science<br>Expected: December 2020<br>Overall GPA: 4.0/4.0 </p>
+                
+                <h5>Edmond Memorial High School</h5>
+                <h6>May 2017</h6>
+                <p>4.63/4.0 weighted GPA<br>4.0/4.0 unweighted GPA<br>Valedictorian with distinction<br>Top 2% of class  </p>
+            </div>
+        </section>
+        <section class="container" id="Extracuriculars">
+            <div class="col-sm-12">
+                <h3>Extracuriculars</h3>
+                <ul>
+                    <li>Game Developers Association Member - 2017-Present</li>
+                    <li>Engineer club Member - 2017-Present</li>
+                    <li>Edmond Memorial Robotics Team Spirit Team Head - 2016-2017</li>
+                    <li>Edmond Memorial Student Council Member - 2015-2017</li>
+                    <li>Edmond Memorial Business Professionals of America Member - 2015-2016</li>
+                    <li>Edmond Memorial Swine Week representative - 2015-2017</li>
+                    <li>Oklahoma Association of Student Council State and District participant - 2015-2017</li>
+                </ul>
+            </div>
+        </section>
+        <section class="container" id="WorkExperience">
+            <div class="col-sm-12">
+                <h3>Work Experience</h3>
+                <h5>Host Experience at Fish City Grill, Edmond, OK</h5>
+                <h6>April 2015 - August 2017</h6>
+                <ul>
+                    <li>Managed customer complaints</li>
+                    <li>Regulated customer seating flow</li>
+                    <li>Handled table maintenance and sanitation</li>
+                    <li>Carried out general tasks requesteded by Managers</li>
+                </ul>
+            </div>
+        </section>
+        <section class="container" id="VolunteerWork">
+            <div class="col-sm-12">
+                <h3>Volunteer Work</h3>
+                <ul>
+                    <li>City Rescue Mission - 2015-2017</li>
+                    <li>Calm Waters - 2016-2017</li>
+                    <li>National Honor Society Volunteer Hours - 2015-2017</li>
+                    <li>Article Contribution to Live Equal Organization - 2016</li>
+                    <li>Warm Hearts out of Detroit - 2014</li>
+                </ul>
+            </div>
+        </section>
+        <div ng-controller="MainController">
+            <center><button class="nicebutton" type="button" ng-click="plusOne">+ {{ likes }}</button></center>
+            <br>
+            
+        </div>
+        <script src="app.js"></script>
+        <script src="MainController.js"></script>
+    </body>
+</html>
