@@ -3,8 +3,10 @@
     <head>
         <title>About Connor</title>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="aboutMe.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     </head>
     <body ng-app="myApp">
         <header class="container">
@@ -21,7 +23,7 @@
         <section class="jumbotron">
             <div class="container">
                 <figure class="col-sm-12">
-                    <center><img src="Pictures/IMG_1446.jpg" width="750" height="600"></center>
+                    <center><img src="me.jpg" width="750" height="600"></center>
                 </figure>
             </div>
         </section>
@@ -83,7 +85,7 @@
             </div>
         </section>
         <div ng-controller="MainController">
-            <center><button class="nicebutton" type="button" ng-click="plusOne">+ {{ likes }}</button></center>
+            <center><button class="nicebutton" type="button" ng-click="plusOne()">+ {{ likes }}</button></center>
             <br>
             
         </div>
