@@ -20,6 +20,11 @@ header p {
   margin: 0;
 }
 
+.mainImage {
+  max-width: 100%;
+  height: auto;
+}
+
 .nicebutton {
     margin: 20px;
     border-color: black;
